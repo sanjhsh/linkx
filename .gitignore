@@ -1,0 +1,24 @@
+# Node.js
+node_modules
+/build
+/dist
+/public/build
+.env
+.env.local
+
+# Tailwind CSS output file (adjust path as necessary)
+/src/output.css
+/css/tailwind.css
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
