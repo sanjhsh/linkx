@@ -1,1 +1,89 @@
-@import 'tailwindcss';
+
+        .container {
+            font-family: 'Arial', sans-serif;
+            background-color:#262525;
+            text-align: center;
+            padding: 20px;
+            background-size: cover;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgb(53, 27, 19);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px ;
+        }
+        .name {
+            font-size: 35px;
+            color: white;
+            margin-top: 10px;
+            text-decoration:double;
+            margin-bottom: 80px;
+            font-style: inherit;
+        }
+        .gmail {
+        
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+            height: 50px;
+            width: 500px;
+            background-color:#2e2d2d;   
+            outline: none;
+            border-radius: 30px;
+            border: 1px #EA4335 solid;
+            /* color: white; */
+        }
+        .gmail:hover{
+            background-color:#222222;
+        }
+        .linkedin {
+            /* color:#B0C1DB; */
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+            height: 50px;
+            width: 500px;
+            background-color:#2e2d2d;
+            border:blue 1px solid;
+        }
+        .linkedin:hover{
+            background-color:#222222;
+        }
+        .github {
+            /* color:#C3C6C8; */
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 20px;
+            cursor: pointer;
+            height: 50px;
+            width: 500px;
+            background-color:#2e2d2d;   
+            outline: none;
+            border:1px green solid;
+        }
+        .github:hover{
+            background-color:#222222;
+        }
+        .icons{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+        }
+        .role{
+            font-size: 19px;
+            color: white;
+            margin-top: -60px;
+            margin-bottom: 50px;
+        }
+        
